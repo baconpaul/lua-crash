@@ -1,6 +1,6 @@
 BD=`pwd`/bld
-rm will_crash
-rm wont_crash
+rm -f will_crash
+rm -f wont_crash
 rm -rf ${BD}
 mkdir -p ${BD}/luabld
 
